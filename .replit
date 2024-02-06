@@ -1,0 +1,9 @@
+entrypoint = "README.md"
+modules = ["bash:v1-20231215-e6d471c"]
+
+[nix]
+channel = "stable-23_05"
+
+[deployment]
+run = ["./nimshelllin"]
+deploymentTarget = "cloudrun"
